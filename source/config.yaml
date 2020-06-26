@@ -2,9 +2,9 @@
 url: 202.204.48.66
 
 #用户名(科大上网帐号为学工号，首字母小写)
-username: b20190183
+username: xxxxx
 #密码
-password: 09176313
+password: xxxx
 
 #循环间隔，多久检查一次网络链接情况,单位为s
 interval_time: 100
