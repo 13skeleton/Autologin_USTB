@@ -78,8 +78,8 @@ class Login(object):
         chrome_options.add_argument('--headless')
 
         #设置全屏窗口
-        chrome_options.add_argument('--maximize_window')
         browser = webdriver.Chrome(options=chrome_options)
+        browser.maximize_window()        
         
         #打开特定链接
         browser.get(self.url)
